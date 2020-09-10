@@ -261,3 +261,152 @@ img {
     width: 200px;
     border-radius: .5rem;
 }
+
+.skills_container {
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.skills_text {
+    margin-bottom: var(--mb-4);
+}
+
+.skills_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px wheat;
+}
+
+.skills_name {
+    display: flex;
+    align-items: center;
+}
+
+.skills_bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rebeccapurple;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+}
+
+.skills_java {
+    width: 85%;
+}
+
+.skills_ansible {
+    width: 85%;
+}
+
+.skills_rhel {
+    width: 70%;
+}
+
+.skills_aws {
+    width: 80%;
+}
+
+.skills_docker {
+    width: 80%;
+}
+
+.skills_gcp {
+    width: 60%;
+}
+
+.skills_flutter {
+    width: 85%;
+}
+
+.skills_digitalocean {
+    width: 40%;
+}
+
+.skills_terraform {
+    width: 80%;
+}
+
+.skills_mysql {
+    width: 70%;
+}
+
+.skills_html {
+    width: 75%;
+}
+.skills_css {
+    width: 80%;
+}
+
+.project {
+    text-align: center;
+}
+
+.project_container {
+    row-gap: 2rem;
+}
+
+.project_img {
+    box-shadow: 0 4px 25px wheat;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.project_img img{
+    transition: 1s;
+    cursor: pointer;
+}
+
+.project_img img:hover{
+    transform: scale(1.1);
+}
+
+.contact_input {
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+}
+
+.contact_button {
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: var(--second-color);
+    color: whitesmoke;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+}
+
+.footer_title {
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+}
+
+.footer_social {
+    margin-bottom: var(--mb-4);
+}
+
+.footer_icon {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin: 0 var(--mb-2);
+}
