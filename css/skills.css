@@ -1,0 +1,92 @@
+
+    .skills_container {
+        row-gap: 2rem;
+        text-align: center;
+    }
+    
+    .skills_text {
+        margin-bottom: var(--mb-4);
+    }
+    
+    .skills_data {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        font-weight: var(--font-semi);
+        padding: .5rem 1rem;
+        margin-bottom: var(--mb-4);
+        border-radius: .5rem;
+        box-shadow: 0 4px 25px wheat;
+    }
+    
+    .skills_name {
+        display: flex;
+        align-items: center;
+    }
+    
+    .skills_bar {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: rebeccapurple;
+        height: .25rem;
+        border-radius: .5rem;
+        z-index: var(--z-back);
+    }
+    
+    .skills_java {
+        width: 85%;
+    }
+    
+    .skills_ansible {
+        width: 85%;
+    }
+    
+    .skills_rhel {
+        width: 70%;
+    }
+    
+    .skills_aws {
+        width: 80%;
+    }
+    
+    .skills_docker {
+        width: 80%;
+    }
+    
+    .skills_gcp {
+        width: 60%;
+    }
+    
+    .skills_flutter {
+        width: 85%;
+    }
+    
+    .skills_digitalocean {
+        width: 40%;
+    }
+    
+    .skills_terraform {
+        width: 80%;
+    }
+    
+    .skills_mysql {
+        width: 70%;
+    }
+    
+    .skills_html {
+        width: 75%;
+    }
+    .skills_css {
+        width: 80%;
+    }
+ 
+
+@media screen and (min-width: 768px) {
+    .skills_container {
+        grid-template-columns: repeat(2 , 1fr);
+        align-items: center;
+        text-align: initial;
+    }
+}
