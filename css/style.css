@@ -344,7 +344,7 @@ img {
 .skills_css {
     width: 80%;
 }
-*/
+
 .project {
     text-align: center;
 }
@@ -367,6 +367,7 @@ img {
 .project_img img:hover{
     transform: scale(1.1);
 }
+*/
 
 .contact_input {
     width: 100%;
@@ -386,29 +387,6 @@ img {
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin-left: auto;
-}
-
-.footer {
-    background-color: var(--second-color);
-    color: whitesmoke;
-    text-align: center;
-    font-weight: var(--font-semi);
-    padding: 2rem 0;
-}
-
-.footer_title {
-    font-size: 2rem;
-    margin-bottom: var(--mb-4);
-}
-
-.footer_social {
-    margin-bottom: var(--mb-4);
-}
-
-.footer_icon {
-    font-size: 1.5rem;
-    color: whitesmoke;
-    margin: 0 var(--mb-2);
 }
 
 @media screen and (min-width: 768px) {
@@ -470,30 +448,6 @@ img {
     .home_social-icon {
         margin-bottom: 0;
         margin-right: var(--mb-4);
-    }
-
-/*    .skills_container{
-        grid-template-columns: repeat(2,1fr);
-        align-items: center;
-        text-align: initial;
-    }
-
-*/
-/*    .about_container , .skills_container{
-        grid-template-columns: repeat(2,1fr);
-        align-items: cennter;
-        text-align: initial;
-    }
-
-
-
-    .about_img img{
-        width: 300px;
-    }
-*/
-    .project_container {
-        grid-template-columns: repeat(3 , 1fr);
-        column-gap: 2rem;
     }
 
     .contact_form {

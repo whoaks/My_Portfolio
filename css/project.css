@@ -1,0 +1,27 @@
+.project {
+    text-align: center;
+}
+
+.project_container {
+    row-gap: 2rem;
+}
+
+.project_img {
+    box-shadow: 0 4px 25px wheat;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.project_img img{
+    transition: 1s;
+    cursor: pointer;
+}
+
+.project_img img:hover{
+    transform: scale(1.1);
+}
+
+.project_container {
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 2rem;
+}
