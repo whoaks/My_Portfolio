@@ -243,7 +243,7 @@ img {
 .button:hover {
     box-shadow: 0 10px 36px black;
 }
-
+/*
 .contact_input {
     width: 100%;
     font-size: var(--normal-font-size);
@@ -262,7 +262,7 @@ img {
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin-left: auto;
-}
+} */
 
 @media screen and (min-width: 768px) {
     body {
@@ -324,14 +324,14 @@ img {
         margin-bottom: 0;
         margin-right: var(--mb-4);
     }
-
+/*
     .contact_form {
         width: 360px;
     }
 
     .contact_container {
         justify-items: center;
-    }
+    } */
 
 }
 
