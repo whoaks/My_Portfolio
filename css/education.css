@@ -1,0 +1,54 @@
+.education_container{
+    row-gap: 2rem;
+}
+
+.education_content{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+}
+
+.education_year, .education_race{
+    font-size: var(--h3-font-size);
+    margin-bottom: .25rem;;
+}
+
+.education_university, .education_institute, .education_percentage{
+    font-size: var(--smaller-font-size);
+    display: block;
+}
+
+.education_year, .education_university, .education_percentage{
+    text-align: right;
+}
+
+.education_time{
+    padding: 0 1rem;
+    justify-self: center;
+}
+
+.education_rounder{
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(119, 1, 103);
+    border-radius: 50%;
+}
+
+.education_rounder::before{
+    content: '';
+    position: absolute;
+    transform: translate(-4px, -4px);
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--first-color);
+    border-radius: 50%;
+}
+
+.education_line{
+    display: block;
+    height: 90%;
+    width: 2px;
+    background-color: rgb(119, 1, 103);
+    transform: translate(5px, -4px);
+}

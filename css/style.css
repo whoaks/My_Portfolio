@@ -6,8 +6,9 @@
 }
 
 :root {
-    --first-color: rgb(223, 44, 44);
+    --first-color: rgb(85, 5, 131);
     --second-color: rgb(7, 2, 24);
+    --third-color: rgb(7, 133, 17);
 }
 
 :root {
@@ -227,7 +228,6 @@ img {
 .home_img {
     position: absolute;
     right: 0;
-    bottom: 0;
     width: 295px;
 }
 

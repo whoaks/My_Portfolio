@@ -41,6 +41,11 @@ sr.reveal('.about_img' , {})
 sr.reveal('.about_subtitle' , {delay:200})
 sr.reveal('.about_text' , {delay:400})
 
+//Education detail
+sr.reveal('.section-title', {})
+sr.reveal('.education_content' ,{interval:200})
+sr.reveal('.education_time' , {interval: 200})
+
 sr.reveal('.skills_subtitle' , {})
 sr.reveal('.skills_text' , {delay:200})
 sr.reveal('.skills_data' , {interval: 200})
@@ -49,3 +54,24 @@ sr.reveal('.skills_img' , {delay: 400})
 sr.reveal('.project_img' , {delay: 400})
 
 sr.reveal('.contact_input' , {delay: 400})
+
+const sections = document.querySelectorAll('section[id]')
+
+window.addEventListener('scroll', scrollActive)
+ 
+
+function scrollActive() {
+  const scrollY = window.pageYOffset
+
+  sections.forEach(current => {
+    const sectionHeight = current.offsetHeight
+    const sectionTop = current.offsetTop - 50
+    sectionId = current.getAttribute('id')
+
+    if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+      document.querySelector('.nav_menu a[href*='+ sectionId +']').classList.add('active')
+    }else {
+      document.querySelector('.nav_menu a[href*='+ sectionId +']').classList.remove('active')
+    }
+  });
+}
