@@ -32,27 +32,46 @@ const sr = ScrollReveal({
     reset: true 
 });
 
+
+// Home
 sr.reveal('.home_title' , {})
 sr.reveal('.button' , {delay:200})
 sr.reveal('.home_img' , {delay:400})
 sr.reveal('.home_social-icon' , {interval: 200})
 
+
+// About
 sr.reveal('.about_img' , {})
 sr.reveal('.about_subtitle' , {delay:200})
 sr.reveal('.about_text' , {delay:400})
+sr.reveal('.about_information-data' , {delay:600})
+
 
 //Education detail
 sr.reveal('.section-title', {})
 sr.reveal('.education_content' ,{interval:200})
 sr.reveal('.education_time' , {interval: 200})
 
+
+// Skills
 sr.reveal('.skills_subtitle' , {})
 sr.reveal('.skills_text' , {delay:200})
 sr.reveal('.skills_data' , {interval: 200})
 sr.reveal('.skills_img' , {delay: 400})
 
+
+// Project
 sr.reveal('.project_img' , {delay: 400})
 
+
+// Services 
+sr.reveal('.services-title', {})
+sr.reveal('.services_content' , {interval:200})
+sr.reveal('.services_title' , {delay:200})
+sr.reveal('.services_description' , {delay:300})
+
+
+// Contact
 sr.reveal('.contact_input' , {delay: 400})
 
 const sections = document.querySelectorAll('section[id]')
