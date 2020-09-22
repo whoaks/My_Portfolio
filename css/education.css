@@ -52,3 +52,29 @@
     background-color: rgb(119, 1, 103);
     transform: translate(5px, -4px);
 }
+
+.education_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px wheat;
+}
+
+.education_name {
+    display: flex;
+    align-items: center;
+}
+
+.education_bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--third-color);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+}
