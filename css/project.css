@@ -25,3 +25,37 @@
     grid-template-columns: repeat(3 , 1fr);
     column-gap: 2rem;
 }
+
+.project_data {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.project_link{
+    display: inline-flex;
+    font-size: 1.5rem;
+    background-color: black;
+    columns: white;
+    color: aqua;
+    padding: .25rem;
+    border-radius: .25rem;
+    margin-bottom: var(--mb-2);
+}
+
+.project_title {
+    font-size: var(--h2-font-size);
+    color:black;
+}
+
+.project_img:hover .project_data{
+    bottom: 0;
+}
