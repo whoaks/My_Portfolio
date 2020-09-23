@@ -35,9 +35,11 @@ const sr = ScrollReveal({
 
 // Home
 sr.reveal('.home_title' , {})
-sr.reveal('.button' , {delay:200})
-sr.reveal('.home_img' , {delay:400})
+sr.reveal('.button' , {delay:150})
+sr.reveal('.home_img' , {delay:300})
+sr.reveal('.home_text-rotator' , {delay:450})
 sr.reveal('.home_social-icon' , {interval: 200})
+
 
 
 // About
@@ -46,7 +48,7 @@ sr.reveal('.about_subtitle' , {delay:200})
 sr.reveal('.about_text' , {delay:400})
 sr.reveal('.about_information-data' , {delay:600})
 
-
+sr.reveal('.button' , {delay:1000})
 //Education detail
 sr.reveal('.section-title', {})
 sr.reveal('.education_content' ,{interval:200})

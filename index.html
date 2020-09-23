@@ -51,9 +51,10 @@
                     <span class="home_title-color">
                         Akash
                     </span><br>
-                 <h3 id="text-rotator">   
+                 <h3 class="home_text-rotator">   
                 </h3>
             </h1>
+            <a download="#" href="https://drive.google.com/file/d/1f9qm29Q4PU7-7_HWA66TgHC8XECo8YE6/view?usp=sharing" class="button home_button">Download Resume</a>
             </div>
 
             <div class="home_social">
@@ -182,8 +183,6 @@
 
             <div class="skills_container bd-grid">
                 <div>
-                    <h2 class="skills_subtitle">Technical Skills</h2>
-
                     <div class="skills_data">
                         <div class="skills_name">
                             <span class="skills_name">Ansible</span>
@@ -321,7 +320,7 @@
         <!-- Projects-->
 
         <section class="project section" id="project">
-            <h2 class="section-title">Project</h2>
+            <h2 class="section-title">Projects and Blogs</h2>
 
             <div class="project_container bd-grid">
                 <!-- GCP -->
@@ -342,12 +341,42 @@
                         <span class="project_title"> Amazon EKS </span>
                     </div>
                 </div>
+                <!-- MultiNode Cluster  -->
                 <div class="project_img">
                     <img src="image/p5.JPG" alt="">
 
                     <div class="project_data">
-                        <a href="https://github.com/whoaks/MultiNode_Kubernetes_Cluster_using_Ansible" class="project_link"><i class="bx bx-link"></i></a>
+                        <a href="https://github.com/whoaks/Ansible_Task-3" class="project_link"><i class="bx bx-link"></i></a>
                         <span class="project_title"> MultiNode Cluster on Cloud using Ansible </span>
+                        <span class="project_title">LinkedIn</span>
+                    </div>
+                </div>
+                <!-- Openstack on AWS Cloud -->
+                <div class="project_img">
+                    <img src="image/p7.JPG" alt="">
+
+                    <div class="project_data">
+                        <a href="https://www.linkedin.com/posts/akash-pandey-0687281a3_creation-of-openstack-private-cloud-on-public-activity-6683760610892640256-CgNh" class="project_link"><i class="bx bx-link"></i></a>
+                        <span class="project_title"> Openstack on AWS Cloud </span>
+                    </div>
+                </div>
+                <!-- Haproxy LoadBalancer -->
+                <div class="project_img">
+                    <img src="image/p6.JPG" alt="">
+
+                    <div class="project_data">
+                        <a href="https://www.linkedin.com/pulse/deploy-load-balancer-multiple-web-servers-aws-through-akash-pandey-/" class="project_link"><i class="bx bx-link"></i></a>
+                        <span class="project_title"> Haproxy LoadBalancer on AWS using Ansible </span>
+                    </div>
+                </div>
+                
+                <!-- Automation using Terraform -->
+                <div class="project_img">
+                    <img src="image/p8.JPG" alt="">
+
+                    <div class="project_data">
+                        <a href="https://www.linkedin.com/pulse/automation-akash-pandey-/" class="project_link"><i class="bx bx-link"></i></a>
+                        <span class="project_title"> Automation Using Terraform </span>
                     </div>
                 </div>
             </div>
@@ -403,11 +432,13 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact_container bd-grid">
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeC-DQodqwoNdzzXT4ldUrPVwyOYfXEDbc3iNR7sXRd9cak3Q/formResponse" class="contact_form">
-                    <input placeholder="Name" name="entry.358663786" jsname="YPqjbf" class="contact_input">
-                    <input type="email"  name="entry.358663786" jsname="YPqjbf" placeholder="Email" class="contact_input">
-                    <textarea name="" id=""  name="entry.363286337" rows="5" jsname="YPqjbf" placeholder="Message"  class="contact_input"></textarea>
-                    <input type="button" value="Submit" class="contact_button button">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeC-DQodqwoNdzzXT4ldUrPVwyOYfXEDbc3iNR7sXRd9cak3Q/formResponse" method="post" autocomplete="off" target="hidden_iframe" onsubmit="return validateForm(); " class="contact_form">
+                    <input placeholder="Name" name="entry.358663786" jsname="YPqjbf" id="name"  class="contact_input">
+                    <input type="email" name="entry.1173448032" jsname="YPqjbf" placeholder="Email" id="email"   class="contact_input">
+                    <input placeholder="Mobile" name="entry.1193762433" jsname="YPqjbf"  id="phone"   class="contact_input">
+                    <textarea placeholder="Message"  name="entry.363286337" jsname="YPqjbf" id="message"  class="contact_input"></textarea>
+                    <input type="submit" value="Submit" name ="submit" class="contact_button button">
+                    <input type="reset" value="Reset" class="class_button button">
                 
                 </form>
             </div>
@@ -431,7 +462,79 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
+    <script type="text/javascript">
+        function validateName() {
+                var name = document.getElementById('name').value;
+                if(name.length == 0) {
+                  alert("Name can't be blank") ;
+                  return false;
     
+                }
+                if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                  alert("Please enter your correct name") ;//Validation Message
+                  return false;
+                }
+                return true;
+              }
+    
+              function validatePhone() {
+                var phone = document.getElementById('phone').value;
+                if(phone.length == 0) {
+                  alert("Phone number can't be blank") ;//Validation Message
+                  return false;
+                }
+    
+      /*          if(!phone.match(/^[0]?[789]\d{9}$/)) {
+                 alert("Please enter a correct phone number") ;//Validation Message
+                 return false;
+               }
+    */
+               return true;
+    
+             }
+    
+             function validateEmail () {
+    
+              var email = document.getElementById('email').value;
+              if(email.length == 0) {
+                alert("Email can't be blank") ;//Validation Message
+                return false;
+    
+              }
+    
+              if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                alert("Please enter a correct email address") ;//Validation Message
+                return false;
+    
+              }
+    
+              return true;
+    
+            }
+
+            function validateMessage () {
+                var message = document.getElementById('email').value;
+                if(message.length == 0) {
+                alert("Email can't be blank") ;//Validation Message
+                return false;
+            }
+                return true ;
+            }
+    
+    
+            function validateForm() {
+              if (!validateName() || !validateEmail() || !validateMessage()) {
+    
+                alert("Form not submitted");//Validation Message
+                return false;
+              }
+              else {
+                submitted=true;
+                return "Submitted";
+              }
+            }
+            </script>
+     
     <script src="js/main.js"></script>
 </body>
 </html>

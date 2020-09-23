@@ -41,39 +41,39 @@
     margin-right: var(--mb-4);
 }
 
-#text-rotator {
-    color: darkslategray;
-    font-size: 2rem;
+.home_text-rotator {
+    color: rgb(161, 0, 0);
+    font-size: 1.5rem;
 }
 
-#text-rotator:before {
+.home_text-rotator:before {
     content: 'Cloud Developer';
-    animation: animate 5s linear infinite;
+    animation: animate 9s linear infinite;
 }
 
 @keyframes animate 
 {
-    0%
+    15%
     {
         content: 'Cloud Developer';
     }
-    16%
+    30%
     {
         content: 'Software Developer';
     }
-    33%
+    44%
     {
         content: 'Kubernetes Developer';
     }
-    50%
+    58%
     {
         content: 'Docker Specialised';
     }
-    66%
+    73%
     {
         content: 'Flutter Developer';
     }
-    83% 
+    87% 
     {
         content: 'RHEL8 Linux Administrator';
     }
