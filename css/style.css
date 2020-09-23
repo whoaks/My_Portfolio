@@ -316,4 +316,8 @@ img {
     .home_img {
         right: 10%;
     }
+
+    .services_container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

@@ -72,7 +72,7 @@ sr.reveal('.services_description' , {delay:300})
 
 
 // Contact
-sr.reveal('.contact_input' , {delay: 400})
+sr.reveal('.contact_input' , {delay: 100})
 
 const sections = document.querySelectorAll('section[id]')
 
