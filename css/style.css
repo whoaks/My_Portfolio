@@ -164,11 +164,11 @@ img {
         padding-bottom: 2.5rem;
         flex-direction: row;
         align-self: flex-end;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .home_social-icon {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         margin-right: var(--mb-2);
     }
 }
