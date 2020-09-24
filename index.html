@@ -29,8 +29,7 @@
                     <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
                     <li class="nav_item"><a href="#project" class="nav_link">Project</a></li>
                     <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
-                 <!--   <li class="nav_item"><a href="#" class="nav_link">Blogs</a></li>
-                  -->  <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
                 </ul>
             </div>
 
@@ -64,12 +63,6 @@
                 <a href="https://www.instagram.com/30_aks/" class="home_social-icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://www.facebook.com/akash.pandey.3958" class="home_social-icon"><i class='bx bxl-facebook-circle'></i></a>
             </div>
-
-         <!--   <div class="home_img">
-                <img src="https://raw.githubusercontent.com/whoaks/aksfile/master/my_img.jpg" style="border-radius: 50%; width: 300px; height: 300px;">
-        
-           <img src="image/aks.jpg" style="border-radius: 50%; width: 300px; height: 350px; align-self: center;">
-         </div> -->
         </section>
 
         <section class="about section" id="about">
@@ -105,7 +98,6 @@
 
         <!-- Education -->
         <section class="education" section>
-            <!--<span class="section-title">Qualification</span>-->
             <h2 class="section-title">My Education</h2>
 
             <div class="education_container bd-grid">
@@ -150,17 +142,6 @@
                         <h3 class="education_year">2013-2015</h3>
                         <span class="education_university">ICSE</span>
                         <span class="education_percentage">Percentage:84%</span>
-                       <!-- <div class="education_data">
-                            <div class="education_name">
-                                <span class="education_name"> ICSe</span>
-                            </div>
-    
-                            <div>
-                                <span class="education_percentage">84%</span>
-                            </div>
-    
-                            <div class="education_bar skills_matriculation"></div>
-                        </div> -->
                     </div>
                     
 
@@ -436,7 +417,7 @@
                     <input placeholder="Name" name="entry.358663786" jsname="YPqjbf" id="name"  class="contact_input">
                     <input type="email" name="entry.1173448032" jsname="YPqjbf" placeholder="Email" id="email"   class="contact_input">
                     <input placeholder="Mobile" name="entry.1193762433" jsname="YPqjbf"  id="phone"   class="contact_input">
-                    <textarea placeholder="Message"  name="entry.363286337" jsname="YPqjbf" id="message"  class="contact_input"></textarea>
+                    <input placeholder="Message"  name="entry.363286337" jsname="YPqjbf" id="message"  class="contact_input">
                     <input type="submit" value="Submit" name ="submit" class="contact_button button">
                     <input type="reset" value="Reset" class="class_button button">
                 
@@ -461,80 +442,6 @@
     </main>
 
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script type="text/javascript">
-        function validateName() {
-                var name = document.getElementById('name').value;
-                if(name.length == 0) {
-                  alert("Name can't be blank") ;
-                  return false;
-    
-                }
-                if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-                  alert("Please enter your correct name") ;//Validation Message
-                  return false;
-                }
-                return true;
-              }
-    
-              function validatePhone() {
-                var phone = document.getElementById('phone').value;
-                if(phone.length == 0) {
-                  alert("Phone number can't be blank") ;//Validation Message
-                  return false;
-                }
-    
-                if(!phone.match(/^[0]?[789]\d{9}$/)) {
-                 alert("Please enter a correct phone number") ;//Validation Message
-                 return false;
-               }
-  
-               return true;
-    
-             }
-    
-             function validateEmail () {
-    
-              var email = document.getElementById('email').value;
-              if(email.length == 0) {
-                alert("Email can't be blank") ;//Validation Message
-                return false;
-    
-              }
-    
-              if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-                alert("Please enter a correct email address") ;//Validation Message
-                return false;
-    
-              }
-    
-              return true;
-    
-            }
-
-            function validateMessage () {
-                var message = document.getElementById('email').value;
-                if(message.length == 0) {
-                alert("Email can't be blank") ;//Validation Message
-                return false;
-            }
-                return true ;
-            }
-    
-    
-            function validateForm() {
-              if (!validateName() || !validateEmail() || !validatePhone() || !validateMessage()) {
-    
-                alert("Form not submitted");//Validation Message
-                return false;
-              }
-              else {
-                submitted=true;
-                return "Submitted";
-              }
-            }
-            </script>
-     
     <script src="js/main.js"></script>
 </body>
 </html>
