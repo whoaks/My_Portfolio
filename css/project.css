@@ -4,12 +4,14 @@
 
 .project_container {
     row-gap: 2rem;
+    justify-items: center;
 }
 
 .project_img {
     box-shadow: 0 4px 25px wheat;
     border-radius: .5rem;
     overflow: hidden;
+    position: relative;
 }
 
 .project_img img{
@@ -21,10 +23,14 @@
     transform: scale(1.1);
 }
 
-.project_container {
-    grid-template-columns: repeat(2 , 1fr);
-    column-gap: 2rem;
+
+@media screen and (min-width: 1024px) {
+    .project_container {
+        grid-template-columns: repeat(2 , 1fr);
+        column-gap: 2rem;
+    }
 }
+
 
 .project_data {
     position: absolute;
