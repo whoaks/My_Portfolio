@@ -159,11 +159,6 @@ img {
         margin-top: 25rem;
     }
 
-
-    .home_social-icon {
-        margin-bottom: 1rem;
-        margin-right: var(--mb-2);
-    }
 }
 
 .nav_item {
@@ -233,7 +228,7 @@ img {
 
 .home_social {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .home_social-icon {
