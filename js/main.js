@@ -63,7 +63,7 @@ sr.reveal('.skills_img' , {interval: 100})
 
 //sr.reveal('.project_img' , {})
 
-sr.reveal('.services-title', {})
+//sr.reveal('.services-title', {})
 /*
 // Project
 sr.reveal('.project_img' , {interval: 200})
