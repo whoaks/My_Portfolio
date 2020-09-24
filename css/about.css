@@ -43,7 +43,13 @@
 
 .home_text-rotator {
     color: rgb(161, 0, 0);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+}
+
+@media screen and ( max-width: 768px) {
+    .home_text-rotator {
+        font-size: 1.5rem;
+    }
 }
 
 .home_text-rotator:before {
