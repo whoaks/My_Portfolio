@@ -57,11 +57,20 @@ sr.reveal('.education_time' , {interval: 200})
 
 // Skills
 sr.reveal('.skills_subtitle' , {})
-sr.reveal('.skills_text' , {delay:200})
-sr.reveal('.skills_data' , {interval: 200})
-sr.reveal('.skills_img' , {delay: 400})
+sr.reveal('.skills_text' , {delay:100})
+sr.reveal('.skills_data' , {interval: 100})
+sr.reveal('.skills_img' , {interval: 100})
 
 
+sr.reveal('.project_img' , {delay:100})
+
+sr.reveal('.services-title', {})
+sr.reveal('.services_content' , {delay:100})
+sr.reveal('.services_description' , {interval:100})
+
+sr.reveal('.contact_input' , {delay:100})
+sr.reveal('.contact_button' , {interval:100})
+/*
 // Project
 sr.reveal('.project_img' , {interval: 200})
 
@@ -74,8 +83,7 @@ sr.reveal('.services_content' , {delay:200})
 
 // Contact
 sr.reveal('.contact_input' , {})
-
-
+*/
 const sections = document.querySelectorAll('section[id]')
 
 window.addEventListener('scroll', scrollActive)
