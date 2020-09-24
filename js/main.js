@@ -69,11 +69,12 @@ sr.reveal('.project_img' , {interval: 200})
 // Services 
 sr.reveal('.services-title', {})
 sr.reveal('.services_content' , {delay:200})
-sr.reveal('.services_description' , {interval:200})
+// sr.reveal('.services_description' , {interval:200})
 
 
 // Contact
-sr.reveal('.contact_input' , {interval: 100})
+sr.reveal('.contact_input' , {})
+
 
 const sections = document.querySelectorAll('section[id]')
 
