@@ -68,7 +68,7 @@ sr.reveal('.project_img' , {interval: 200})
 
 // Services 
 sr.reveal('.services-title', {})
-sr.reveal('.services_content' , {interval:200})
+sr.reveal('.services_content' , {delay:200})
 sr.reveal('.services_description' , {interval:200})
 
 
