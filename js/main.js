@@ -61,7 +61,7 @@ sr.reveal('.skills_text' , {delay:100})
 sr.reveal('.skills_data' , {interval: 100})
 sr.reveal('.skills_img' , {interval: 100})
 
-sr.reveal('.project_img' , {})
+//sr.reveal('.project_img' , {})
 
 sr.reveal('.services-title', {})
 /*
