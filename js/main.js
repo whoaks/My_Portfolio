@@ -48,7 +48,7 @@ sr.reveal('.about_subtitle' , {delay:200})
 sr.reveal('.about_text' , {delay:400})
 sr.reveal('.about_information-data' , {delay:600})
 
-sr.reveal('.button' , {delay:1000})
+//sr.reveal('.button' , {delay:1000})
 //Education detail
 sr.reveal('.section-title', {})
 sr.reveal('.education_content' ,{interval:200})
