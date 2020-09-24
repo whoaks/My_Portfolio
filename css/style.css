@@ -159,13 +159,6 @@ img {
         margin-top: 25rem;
     }
 
-    .home_social {
-        padding-top: 0;
-        padding-bottom: 2.5rem;
-        flex-direction: row;
-        align-self: flex-end;
-        margin-bottom: 2rem;
-    }
 
     .home_social-icon {
         margin-bottom: 1rem;
