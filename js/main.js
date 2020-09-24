@@ -64,12 +64,11 @@ sr.reveal('.skills_img' , {interval: 100})
 
 sr.reveal('.project_img' , {delay:100})
 
-sr.reveal('.services-title', {})
 sr.reveal('.services_content' , {delay:100})
-sr.reveal('.services_description' , {interval:100})
+sr.reveal('.services_description' , {delay:200})
 
 sr.reveal('.contact_input' , {delay:100})
-sr.reveal('.contact_button' , {interval:100})
+sr.reveal('.contact_button' , {delay:200})
 /*
 // Project
 sr.reveal('.project_img' , {interval: 200})
