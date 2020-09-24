@@ -77,7 +77,7 @@ sr.reveal('.services_content' , {delay:200})
 */
 
 // Contact
-sr.reveal('.contact_input' , {})
+//sr.reveal('.contact_input' , {})
 const sections = document.querySelectorAll('section[id]')
 
 window.addEventListener('scroll', scrollActive)
