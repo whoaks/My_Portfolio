@@ -167,7 +167,7 @@ img {
     }
 
     .home_social-icon {
-        margin-bottom: 0;
+        margin-bottom: 2rem;
         margin-right: var(--mb-2);
     }
 }
