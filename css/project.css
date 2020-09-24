@@ -12,11 +12,13 @@
     border-radius: .5rem;
     overflow: hidden;
     position: relative;
+    width: 100%;
 }
 
 .project_img img{
     transition: 1s;
     cursor: pointer;
+    width: fit-content;
 }
 
 .project_img img:hover{
