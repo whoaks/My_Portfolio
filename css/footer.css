@@ -20,3 +20,8 @@
     color: whitesmoke;
     margin: 0 var(--mb-2);
 }
+
+.footer_icon:hover {
+    color: aqua;
+    background-color: red;
+}

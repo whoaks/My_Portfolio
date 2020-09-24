@@ -250,7 +250,9 @@ img {
 }
 
 .home_social-icon:hover {
-    color: var(--first-color);
+    color:aqua;
+    font-size: 3rem;
+    background-color: black;
 }
 
 .home_img {
