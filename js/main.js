@@ -61,7 +61,9 @@ sr.reveal('.skills_text' , {delay:100})
 sr.reveal('.skills_data' , {interval: 100})
 sr.reveal('.skills_img' , {interval: 100})
 
+sr.reveal('.project_img' , {})
 
+sr.reveal('.services-title', {})
 /*
 // Project
 sr.reveal('.project_img' , {interval: 200})
@@ -72,10 +74,10 @@ sr.reveal('.services-title', {})
 sr.reveal('.services_content' , {delay:200})
 // sr.reveal('.services_description' , {interval:200})
 
+*/
 
 // Contact
 sr.reveal('.contact_input' , {})
-*/
 const sections = document.querySelectorAll('section[id]')
 
 window.addEventListener('scroll', scrollActive)
