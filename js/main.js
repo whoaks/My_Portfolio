@@ -63,18 +63,18 @@ sr.reveal('.skills_img' , {delay: 400})
 
 
 // Project
-sr.reveal('.project_img' , {delay: 400})
+sr.reveal('.project_img' , {interval: 200})
 
 
 // Services 
 sr.reveal('.services-title', {})
 sr.reveal('.services_content' , {interval:200})
-sr.reveal('.services_title' , {delay:200})
-sr.reveal('.services_description' , {delay:300})
+sr.reveal('.services_title' , {interval:200})
+sr.reveal('.services_description' , {interval:200})
 
 
 // Contact
-sr.reveal('.contact_input' , {delay: 100})
+sr.reveal('.contact_input' , {interval: 100})
 
 const sections = document.querySelectorAll('section[id]')
 
