@@ -155,8 +155,13 @@ img {
         margin-right: auto;
     }
 
+    .home_img img {
+        padding-top: 1rem;
+        width: 50%;
+    }
+
     .home_title{
-        margin-top: 20rem;
+        margin-top: 14rem;
     }
 
     .about {
