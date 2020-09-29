@@ -53,34 +53,30 @@
 }
 
 .home_text-rotator:before {
-    content: 'Cloud Developer';
+    content: 'Software Developer';
     animation: animate 9s linear infinite;
 }
 
 @keyframes animate 
 {
-    15%
-    {
-        content: 'Cloud Developer';
-    }
-    30%
+    0%
     {
         content: 'Software Developer';
     }
-    44%
+    20%
     {
-        content: 'Kubernetes Developer';
+        content: 'Cloud Enthusiast';
     }
-    58%
+    40%
     {
-        content: 'Docker Specialised';
+        content: 'Kubernetes Enthusiast';
     }
-    73%
+    60%
+    {
+        content: 'Docker Enthusiast';
+    }
+    80%
     {
         content: 'Flutter Developer';
-    }
-    87% 
-    {
-        content: 'RHEL8 Linux Administrator';
     }
 }
